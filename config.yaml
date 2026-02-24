@@ -6,3 +6,20 @@ module:
     - source: blox
       target: assets/dist/community/blox/
       includeFiles: '**.css'
+      languages:
+  ar:
+    languageName: "العربية"
+    [cite_start]title: "القسم العربي" [cite: 34]
+    contentDir: "content/ar"
+    weight: 1
+    rtl: true # مهم جداً لتنسيق اللغة العربية من اليمين لليسار
+  ru:
+    languageName: "Русский"
+    [cite_start]title: "Русский Раздел" [cite: 21]
+    contentDir: "content/ru"
+    weight: 2
+  tr:
+    languageName: "Türkçe"
+    title: "Broken Linguistics Türkçe"
+    contentDir: "content/tr"
+    weight: 3
